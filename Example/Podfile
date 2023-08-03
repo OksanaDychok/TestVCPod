@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '12.0'
 
 target 'TestVCPod_Example' do
-  pod 'TestVCPod', :git => 'https://github.com/OksanaDychok/TestVCPod'
+  pod 'TestVCPod', :git => 'https://github.com/OksanaDychok/TestVCPod', :tag => '0.0.1'
 
   target 'TestVCPod_Tests' do
     inherit! :search_paths
